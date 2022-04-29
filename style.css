@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0; 
+    box-sizing: border-box;  
+}
+
+body{
+    overflow-x: hidden;
+}
+/* BARRA NAVEGACIÓN */
+.navbar{
+    background-color: #fff45e;
+}
+.nav-item a:hover{
+    transform: scale(1.1);
+}
+.dropdown-menu{
+    background-color: #fdff83;
+}
+/* MAIN TODOS */
+h4{ 
+    text-decoration: overline;
+    color: rgb(160, 160, 160);   
+}
+
+/* INICIO */
+
+h5{
+    color: rgb(75, 75, 75);
+}

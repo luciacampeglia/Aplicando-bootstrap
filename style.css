@@ -21,7 +21,10 @@ body{
 .dropdown-menu{
     background-color: #fdff83;
 }
-
+.active{
+    color: rgb(160, 160, 160) !important;
+    font-weight: bold;
+}
 /* MAIN TODOS */
 h4{ 
     text-decoration: overline;

@@ -21,6 +21,7 @@ body{
 .dropdown-menu{
     background-color: #fdff83;
 }
+
 /* MAIN TODOS */
 h4{ 
     text-decoration: overline;
@@ -31,4 +32,15 @@ h4{
 
 h5{
     color: rgb(75, 75, 75);
+}
+/* Carousel */
+.carousel-item img{
+    width: 100% vw;
+    height: 600px;
+}
+@media only screen and (max-width:768px){
+    .carousel-item img{
+        height: 300px;
+    }
+    
 }
